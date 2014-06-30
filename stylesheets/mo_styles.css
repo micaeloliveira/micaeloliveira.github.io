@@ -1,7 +1,9 @@
 body {
   color: black;
   font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-  background-color: white; }
+  background-color: white;
+  margin: 0;
+}
   body h1, body h2, body h3 {
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
     color: #333333; }
