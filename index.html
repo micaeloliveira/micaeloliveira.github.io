@@ -1,1 +1,142 @@
-Hi there!
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Micael Oliveira | micaoliveira.com</title>
+    <link href='stylesheets/fontello.css' rel='stylesheet'>
+    <link href='stylesheets/bootstrap.css.scss' rel='stylesheet'>
+    <link href='stylesheets/mo_styles.css' rel='stylesheet'>
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class='header'>
+      <div class='mo-header'>
+        <div class='mo-header-container'>
+          <h1>
+            Hey there! Nice to meet you. =)
+            <br>
+            My name is Micael Oliveira, I am a Physicist & Developer.
+            <p class='link-me'>
+              Get to know
+              <a href='#me'>me!</a>
+            </p>
+          </h1>
+          <a class='circle-know-me' href='#me'>
+            <div class='icon-down-open'></div>
+          </a>
+        </div>
+      </div>
+    </header>
+    <!-- ABOUT ME -->
+    <div class='mo-about'>
+      <div class='mo-photo' id='me'></div>
+      <div class='row mo-me'>
+        <h1>
+          About Me
+        </h1>
+        <p>
+          I was born in Portugal and lived in countries such France and Luxembourg. I graduated with a Masters in Physics in 2012 and since then I have been working as a PhD student in High Energy Particle Physics. I am passionate about physics, maths and technology. I love sports such as tennis, football, climbing and mountain biking. I am spending my days between Lisbon and Luxembourg.
+        </p>
+      </div>
+      <hr>
+      <!-- PROJECTS -->
+      <div class='row mo-projects'>
+        <h1>
+          Some Projects
+        </h1>
+        <h3>
+          Orankl
+        </h3>
+        <p>
+          Orankl is a cool project I am working on with some friends. I am a front-end developer at orankl. I am using tools such as Haml, Sass, Javascript... If you want to know more about orankl just
+          <a href='http://www.orankl.com'>click here.</a>
+        </p>
+        <h2>
+          Auger
+        </h2>
+        <p>
+          I am an official member of the Pierre Auger Collaboration. I have been pursuing my PhD Thesis in the framework of the
+          <a href='http://www.auger.org'>Pierre Auger Observatory.</a>
+          The Pierre Auger Observatory is devoted to the study of the most energetic particles known to mankind, the
+          <a href='http://en.wikipedia.org/wiki/Ultra-high-energy_cosmic_ray'>Ultra High Energy Cosmic Rays.</a>
+          I worked on the problem of the mass composition of UHECRs.
+          My work involves creating computational physics models and performing simulations. I also perform data analysis.
+        </p>
+      </div>
+      <hr>
+      <!-- CONNECT -->
+      <div class='row mo-connect'>
+        <h1>
+          Get in Touch
+        </h1>
+        <p>
+          You can follow me
+        </p>
+        <ul>
+          <li>
+            <a href='http://www.facebook.com/jmicaeloliveira' target='_blank'>
+              <div class='circle-connect'>
+                <div class='icon-facebook'></div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href='http://www.linkedin.com/pub/micael-oliveira/80/a70/297' target='_blank'>
+              <div class='circle-connect'>
+                <div class='icon-linkedin'></div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href='http://www.twitter.com/MicaelOl' target='_blank'>
+              <div class='circle-connect'>
+                <div class='icon-twitter'></div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href='http://www.github.com/micaeloliveira' target='_blank'>
+              <div class='circle-connect'>
+                <div class='icon-github-circled'></div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- CONTACT -->
+      <div class='row mo-mail'>
+        <p>
+          Thanks for dropping by!
+        </p>
+        <p>
+          If you want to get in touch
+          <a href='mailto:mica@orankl.com'>email me!</a>
+        </p>
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <div class='mo-footer'>
+      <div class='mo-about'>
+        <div class='row'>
+          <div class='col-sm-12'>
+            <center>
+              <p>
+                Designed and Built by &copy; Micael Oliveira
+              </p>
+              <p>
+                Lisbon | Luxembourg
+              </p>
+            </center>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script>
+  $( document ).ready(function() {   
+    var newheight = $(window).height()-20;
+    $('.mo-header').css("height", newheight+"px ");
+  
+  });
+</script>

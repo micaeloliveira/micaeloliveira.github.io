@@ -1,0 +1,219 @@
+body {
+  color: black;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  background-color: white; }
+  body h1, body h2, body h3 {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    color: #333333; }
+  body p {
+    font-family: Cambria, "Times New Roman", Times, serif;
+    color: #555555; }
+
+::selection {
+  background: #00a750;
+  color: white;
+  text-shadow: none; }
+
+ul {
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0; }
+  ul li {
+    display: inline-block; }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+  width: 98%; }
+
+a {
+  color: #29baf1; }
+
+header, .header {
+  background-color: #29baf1;
+  padding: 10px; }
+
+.mo-about {
+  max-width: 800px;
+  padding: 0 10px 10px 10px;
+  margin: 0 auto;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 22px;
+  line-height: 2; }
+
+.mo-header {
+  display: block;
+  clear: both;
+  color: white;
+  background: #29baf1;
+  overflow: hidden;
+  position: relative;
+  border: 10px solid white;
+  padding: 20px; }
+  .mo-header h1, .mo-header p {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 42px;
+    color: white;
+    line-height: 2;
+    letter-spacing: 0.6px;
+    margin: 100px auto 10px auto; }
+  .mo-header p {
+    font-size: 20px;
+    color: white;
+    margin: 20px auto; }
+
+.link-me a {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: white;
+  border-bottom: 2px solid white;
+  padding: 5px;
+  text-decoration: none; }
+  .link-me a:hover {
+    background-color: white;
+    color: #00a750; }
+
+.mo-header-container {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 10px; }
+
+.mo-me, .mo-projects, .mo-connect, .mo-mail {
+  width: 100%;
+  height: auto;
+  display: block;
+  clear: both;
+  padding: 20px;
+  position: relative; }
+
+.mo-projects h2, .mo-mail h2 {
+  padding: 15px 0 5px 0; }
+.mo-projects a, .mo-mail a {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font-weight: 500;
+  border-bottom: 2px solid #29baf1;
+  padding: 5px;
+  text-decoration: none; }
+  .mo-projects a:hover, .mo-mail a:hover {
+    color: #00a750;
+    border-bottom: 2px solid #00a750; }
+
+.userimageborder {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.9);
+  width: 210px;
+  height: 210px;
+  border-radius: 110px;
+  z-index: 2; }
+  .userimageborder:hover {
+    box-shadow: 0 0 10px whitesmoke;
+    transition: box-shadow 1s linear; }
+
+.mo-photo {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background: url("../images/photo.jpg") center center;
+  background-size: 200px;
+  margin: 0 auto;
+  margin-top: 50px; }
+
+.mo-footer {
+  display: block;
+  color: white;
+  background: #29baf1;
+  margin-top: 50px;
+  position: relative;
+  padding: 10px 20px 5px 20px;
+  overflow: hidden; }
+  .mo-footer p {
+    color: white;
+    font-size: 16px; }
+
+.circle-know-me {
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -moz-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+  position: relative;
+  background-color: #29baf1;
+  border-radius: 40px;
+  bottom: -55px;
+  cursor: pointer;
+  display: block;
+  height: 80px;
+  width: 80px;
+  margin: 0 auto; }
+  .circle-know-me .icon-down-open {
+    -webkit-transition: color 0.3s ease-in-out;
+    -moz-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    padding-top: 15px; }
+  .circle-know-me:hover {
+    background-color: white; }
+    .circle-know-me:hover .icon-down-open {
+      color: #00a750; }
+
+.circle-connect {
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -moz-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+  -moz-box-shadow: 0 0.25em 0 #0d8fc1;
+  -webkit-box-shadow: 0 0.25em 0 #0d8fc1;
+  box-shadow: 0 0.25em 0 #0d8fc1;
+  position: relative;
+  background-color: #29baf1;
+  bottom: -15px;
+  border-radius: 40px;
+  cursor: pointer;
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  margin: 10px 10px 10px 0; }
+  .circle-connect:hover {
+    background-color: #00a750;
+    -webkit-transition: background-color 0.1s ease-in-out;
+    -moz-transition: background-color 0.1s ease-in-out;
+    transition: background-color 0.1s ease-in-out;
+    -moz-box-shadow: 0 0.15em 0 #007438;
+    -webkit-box-shadow: 0 0.15em 0 #007438;
+    box-shadow: 0 0.15em 0 #007438;
+    bottom: -18px; }
+  .circle-connect:active {
+    background-color: #00a750;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    -moz-transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+    -moz-box-shadow: 0 0 0 #007438;
+    -webkit-box-shadow: 0 0 0 #007438;
+    box-shadow: 0 0 0 #007438;
+    bottom: -20px; }
+  .circle-connect .icon-facebook, .circle-connect .icon-linkedin, .circle-connect .icon-twitter, .circle-connect .icon-github-circled {
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    padding-top: 5px; }
+
+@media (max-width: 650px) {
+  .mo-header h1 {
+    font-size: 30px; }
+  .mo-header p {
+    font-size: 15px; }
+
+  .circle-connect {
+    border-radius: 30px;
+    height: 60px;
+    width: 60px; }
+    .circle-connect .icon-facebook, .circle-connect .icon-linkedin, .circle-connect .icon-twitter, .circle-connect .icon-github-circled {
+      font-size: 25px; } }
