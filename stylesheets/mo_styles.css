@@ -6,13 +6,15 @@ body {
 }
   body h1, body h2, body h3 {
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-    color: #333333; }
+    color: #333333;
+    margin-bottom: 0;}
   body p {
     font-family: Cambria, "Times New Roman", Times, serif;
-    color: #555555; }
+    color: #555555;
+    margin-top: 0; }
 
 ::selection {
-  background: #00a750;
+  background: #70a1ff;
   color: white;
   text-shadow: none; }
 
@@ -34,10 +36,10 @@ hr {
   width: 98%; }
 
 a {
-  color: #29baf1; }
+  color: #5352ed; }
 
 header, .header {
-  background-color: #29baf1;
+  background-color: #5352ed;
   padding: 10px; }
 
 .mo-about {
@@ -52,7 +54,7 @@ header, .header {
   display: block;
   clear: both;
   color: white;
-  background: #29baf1;
+  background: #5352ed;
   overflow: hidden;
   position: relative;
   border: 10px solid white;
@@ -79,7 +81,7 @@ header, .header {
   text-decoration: none; }
   .link-me a:hover {
     background-color: white;
-    color: #00a750; }
+    color: #70a1ff; }
 
 .mo-header-container {
   margin: 0 auto;
@@ -101,12 +103,12 @@ header, .header {
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   font-weight: 500;
-  border-bottom: 2px solid #29baf1;
+  border-bottom: 2px solid #5352ed;
   padding: 5px;
   text-decoration: none; }
   .mo-projects a:hover, .mo-mail a:hover {
-    color: #00a750;
-    border-bottom: 2px solid #00a750; }
+    color: #70a1ff;
+    border-bottom: 2px solid #70a1ff; }
 
 .userimageborder {
   position: absolute;
@@ -132,7 +134,7 @@ header, .header {
 .mo-footer {
   display: block;
   color: white;
-  background: #29baf1;
+  background: #5352ed;
   margin-top: 50px;
   position: relative;
   padding: 10px 20px 5px 20px;
@@ -146,7 +148,7 @@ header, .header {
   -moz-transition: background-color 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;
   position: relative;
-  background-color: #29baf1;
+  background-color: #5352ed;
   border-radius: 40px;
   bottom: -55px;
   cursor: pointer;
@@ -161,21 +163,21 @@ header, .header {
     font-size: 35px;
     text-align: center;
     color: white;
-    padding-top: 15px; }
+    padding-top: 22px; }
   .circle-know-me:hover {
     background-color: white; }
     .circle-know-me:hover .icon-down-open {
-      color: #00a750; }
+      color: #70a1ff; }
 
 .circle-connect {
   -webkit-transition: background-color 0.3s ease-in-out;
   -moz-transition: background-color 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;
-  -moz-box-shadow: 0 0.25em 0 #0d8fc1;
-  -webkit-box-shadow: 0 0.25em 0 #0d8fc1;
-  box-shadow: 0 0.25em 0 #0d8fc1;
+  -moz-box-shadow: 0 0.25em 0 #526bed;
+  -webkit-box-shadow: 0 0.25em 0 #526bed;
+  box-shadow: 0 0.25em 0 #526bed;
   position: relative;
-  background-color: #29baf1;
+  background-color: #5352ed;
   bottom: -15px;
   border-radius: 40px;
   cursor: pointer;
@@ -184,22 +186,22 @@ header, .header {
   width: 80px;
   margin: 10px 10px 10px 0; }
   .circle-connect:hover {
-    background-color: #00a750;
+    background-color: #70a1ff;
     -webkit-transition: background-color 0.1s ease-in-out;
     -moz-transition: background-color 0.1s ease-in-out;
     transition: background-color 0.1s ease-in-out;
-    -moz-box-shadow: 0 0.15em 0 #007438;
-    -webkit-box-shadow: 0 0.15em 0 #007438;
-    box-shadow: 0 0.15em 0 #007438;
+    -moz-box-shadow: 0 0.15em 0 #526bed;
+    -webkit-box-shadow: 0 0.15em 0 #526bed;
+    box-shadow: 0 0.15em 0 #526bed;
     bottom: -18px; }
   .circle-connect:active {
-    background-color: #00a750;
+    background-color: #70a1ff;
     -webkit-transition: background-color 0.3s ease-in-out;
     -moz-transition: background-color 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
-    -moz-box-shadow: 0 0 0 #007438;
-    -webkit-box-shadow: 0 0 0 #007438;
-    box-shadow: 0 0 0 #007438;
+    -moz-box-shadow: 0 0 0 #526bed;
+    -webkit-box-shadow: 0 0 0 #526bed;
+    box-shadow: 0 0 0 #526bed;
     bottom: -20px; }
   .circle-connect .icon-facebook, .circle-connect .icon-linkedin, .circle-connect .icon-twitter, .circle-connect .icon-github-circled {
     font-size: 35px;
